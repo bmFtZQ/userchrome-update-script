@@ -6,3 +6,7 @@ Update script for Edge-Frfox, but can be reused for any other Firefox userChrome
 3. give the script executable permissions: `chmod +x script.sh` (Linux and macOS)
 
 If you want to use this script for other themes, then change the`UPDATEURL` variable using this template: `https://github.com/ORGANIZATION/REPOSITORY/archive/refs/heads/main.tar.gz`
+
+# prerequisites
+
+this script requires `curl` and `tar` to be installed. Most Linux distributions should have them installed by default, as well as macOS and Windows 10 build 17063 or later.
