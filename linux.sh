@@ -2,7 +2,7 @@
 # temp dir used to store downloaded/extracted files before copying
 TEMPCHROMEDIR="/tmp/userchrome"
 # find profile dir in about:profiles "root directory"
-PROFILEDIR="/home/${USERNAME}/.mozilla/firefox/xxxxxxxx.default-release"
+PROFILEDIR="/home/${USER}/.mozilla/firefox/xxxxxxxx.default-release"
 # file to download
 UPDATEURL="https://github.com/bmFtZQ/edge-frfox/archive/refs/heads/main.tar.gz"
 
