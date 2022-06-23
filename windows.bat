@@ -1,7 +1,7 @@
 @REM temp dir used to store downloaded/extracted files before copying
 set TEMPCHROMEDIR=%Temp%\userchrome
 @REM find profile dir in about:profiles 'root directory'
-set PROFILEDIR=C:\Users\%USERNAME%\AppData\Roaming\Mozilla\Firefox\Profiles\xxxxxxxx.default-release
+set PROFILEDIR=C:\Users\%USERNAME%\AppData\Roaming\Mozilla\Firefox\xxxxxxxx.default-release
 @REM file to download
 set UPDATEURL=https://github.com/bmFtZQ/edge-frfox/archive/refs/heads/main.tar.gz
 
